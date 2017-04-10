@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  ZHGDMapDemo
+//
+//  Created by zhanghua0221 on 17/3/10.
+//  Copyright © 2017年 zhanghua0221. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <MAMapKit/MAMapKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+#define SC_WIDTH   [UIScreen mainScreen].bounds.size.width
+#define SC_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
